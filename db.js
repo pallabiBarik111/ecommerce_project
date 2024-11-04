@@ -2,9 +2,13 @@ const mongoose = require('mongoose');
 
 // Define the MongoDB connection URL......
 
-const mongooseURL = 'mongodb://localhost:27017/online_shopping'
+// const mongooseURL = 'mongodb://localhost:27017/online_shopping'
+ const mongooseURL = 'mongodb+srv://pallbaibarik:manager@cluster0.cj4j0.mongodb.net/'
+// const mongooseURL = 'mongodb+srv://pallbaibarik:t7e1ZJHmYq5ZjHAl@cluster0.ezihr.mongodb.net/online_shopping?retryWrites=true&w=majority';
 
-// Set up the MongoDB connection.....
+
+// Set up the MongoDB connection.......
+
 mongoose.connect(mongooseURL, {
     // useNewUrlParser: true,
     // useUnifiedTopology: true
